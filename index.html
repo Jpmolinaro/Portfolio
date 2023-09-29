@@ -11,7 +11,7 @@
     <nav class="nav">
 
         <div class="logo">
-            <a href="">&lt;João Molinaro/&gt;</a>
+            <a href="">João Molinaro</a>
         </div>
         
         <ul>
@@ -48,7 +48,24 @@
         </section>
 
         <section id="technologies" class="technologies">
-            <h1>Tecnologias</h1>
+
+            <h1 class="technologies-title">Tecnologias</h1>
+
+            <div class="technologies-container">
+                <div class="technologies-icon" onclick="iconEvent(`html5`)"><ion-icon name="logo-html5"></ion-icon></div>
+                <div class="technologies-icon" onclick="iconEvent(`css3`)"><ion-icon name="logo-css3"></ion-icon></div>
+                <div class="technologies-icon" onclick="iconEvent(`js`)"><ion-icon name="logo-javascript"></ion-icon></div>
+                <div class="technologies-icon" onclick="iconEvent(`sass`)"><ion-icon name="logo-sass"></ion-icon></div>
+                <div class="technologies-icon" onclick="iconEvent(`node`)"><ion-icon name="logo-nodejs"></ion-icon></div>
+                <div class="technologies-icon" onclick="iconEvent(`github`)"><ion-icon name="logo-github"></ion-icon></div>
+            </div>
+
+            <div class="technologies-text">
+                <h1 class="technology-name">Clique para interagir</h1>
+                <br>
+                <p class="technology-description"></p>
+            </div>
+
         </section>
 
         <section id="projects-container" class="projects-container">
@@ -99,18 +116,18 @@
                 </div>
 
                 <div>
-                    <form action="">
+                    <form action="https://formspree.io/f/meqbpopd" method="POST">
                         <div class="form-container">
                             <h1 class="form-title">Envie uma mensagem:</h1>
         
                             <div class="field1">
-                                <input type="text" id="name" placeholder="Seu nome"><input type="email" id="email" placeholder="exemplo@gmail.com">
+                                <input type="text" name="name" id="name" placeholder="Seu nome"><input type="email" name="email" id="email" placeholder="exemplo@gmail.com">
                             </div>
                             <div class="field2">
-                                <input type="text" name="" id="" placeholder="Assunto">
+                                <input type="text" name="subject" id="" placeholder="Assunto">
                             </div>
                             <div class="field3">
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                                <textarea name="message" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
                             </div>
                             <div class="field4">
                                 <input type="submit" value="Enviar">
@@ -146,7 +163,7 @@
             <li><a href="">Contato</a></li>
         </ul>
 
-        <p>Email: jpmolinaro01@gmail.com</p>
+        <p>Email: jpmolinaro03@gmail.com</p>
 
     </footer>
 
